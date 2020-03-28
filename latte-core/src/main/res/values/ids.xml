@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  StarLayout  -->
+    <item name="star_count" type="id" />
+    <item name="star_is_select" type="id" />
+    <!--  Recycler Field Key -->
+    <item name="field_item_type" type="id" />
+    <item name="field_span_size" type="id" />
+    <!--  Request Code  -->
+    <item name="request_take_photo" type="id" />
+    <item name="request_pick_photo" type="id" />
+    <item name="request_scan" type="id" />
+    <!--  Global Key  -->
+    <item name="key_api_host" type="id" />
+    <item name="key_interceptor" type="id" />
+    <item name="key_handler" type="id" />
+    <item name="key_application_context" type="id" />
+    <item name="key_javascript_interface" type="id" />
+    <item name="key_activity" type="id" />
+    <item name="key_scanner_engine" type="id" />
+    <item name="key_enable_vas_sonic" type="id" />
+    <item name="key_loader_delayed" type="id" />
+    <item name="key_is_config_ready" type="id" />
+    <item name="key_user_agent" type="id" />
+    <item name="key_icon_typeface" type="id" />
+    <item name="key_we_chat_show_pay_entry" type="id" />
+    <!--  微信  -->
+    <item name="key_we_chat_app_id" type="id" />
+    <item name="key_we_chat_app_secret" type="id" />
+</resources>

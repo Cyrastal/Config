@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@android:color/white"
+        android:layout_height="100dp">
+
+    <com.mikepenz.iconics.view.IconicsTextView
+            android:id="@+id/icon_item_shop_cart"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="10dp"
+            android:text="{faw-check-circle}"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/icon_item_shop_cart"
+            android:id="@+id/image_item_shop_cart"
+            android:layout_width="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="80dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_item_shop_cart_title"
+            android:layout_width="wrap_content"
+            android:text="商品标题"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/image_item_shop_cart"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_item_shop_cart_desc"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_item_shop_cart_desc"
+            android:layout_width="wrap_content"
+            android:text="商品描述"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/image_item_shop_cart"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_item_shop_cart_price"
+            android:layout_width="wrap_content"
+            android:text="￥1.00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_shop_cart_desc"
+            app:layout_constraintLeft_toRightOf="@id/image_item_shop_cart"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"/>
+
+    <com.mikepenz.iconics.view.IconicsTextView
+            android:id="@+id/icon_item_minus"
+            android:gravity="center"
+            android:text="{faw-minus-square}"
+            app:layout_constraintRight_toLeftOf="@id/tv_shop_cart_count"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_shop_cart_count"
+            android:layout_marginBottom="18dp"
+            android:gravity="center"
+            android:text="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/icon_item_plus"
+            android:textSize="18sp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+    <com.mikepenz.iconics.view.IconicsTextView
+            android:id="@+id/icon_item_plus"
+            android:gravity="center"
+            android:text="{faw-plus-square}"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:layout_marginRight="20dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

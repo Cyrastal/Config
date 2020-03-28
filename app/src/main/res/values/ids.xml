@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  RecyclerView ItemType-->
+    <item name="type_shop_cart" type="id" />
+    <item name="type_goods_detail_image" type="id" />
+    <item name="type_vertical_menu_list" type="id" />
+    <item name="type_text" type="id" />
+    <item name="type_image" type="id" />
+    <item name="type_text_image" type="id" />
+    <item name="type_banner" type="id" />
+
+    <!--  RecyclerView Field Key  -->
+    <item name="field_id" type="id" />
+    <item name="field_text" type="id" />
+    <item name="field_title" type="id" />
+    <item name="field_image_url" type="id" />
+    <item name="field_description" type="id" />
+    <item name="field_count" type="id" />
+    <item name="field_price" type="id" />
+    <item name="field_is_selected" type="id" />
+    <item name="field_position" type="id" />
+    <item name="field_banners" type="id" />
+    <item name="field_text_and_image" type="id" />
+    <item name="field_tag" type="id" />
+</resources>

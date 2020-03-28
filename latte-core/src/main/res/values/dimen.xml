@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_personal">50dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="bottom_item_image">40dp</dimen>
+    <dimen name="bottom_item_title">16sp</dimen>
+</resources>

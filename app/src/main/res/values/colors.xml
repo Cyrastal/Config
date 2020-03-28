@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="app_main">@android:color/holo_orange_dark</color>
+    <color name="app_background">#1111</color>
+    <color name="we_chat_black">#323232</color>
+    <!--item没有被点击的颜色-->
+    <color name="item_background">#F1F1F1</color>
+</resources>

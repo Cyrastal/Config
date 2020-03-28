@@ -1,0 +1,2 @@
+include ':app', ':latte-core'
+rootProject.name = 'mmall'
